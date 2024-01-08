@@ -1,10 +1,36 @@
+import styles from "./styles"
 function App() {
-
   return (
     <>
-    <div>
-      <p>hello world</p>
-    </div>
+      <div className="bg-primary w-full">
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            
+          </div>
+        </div>
+
+        <div className={` bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            Hero
+          </div>
+        </div>
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            Stats
+            Business
+            Billing
+            CardDeal
+            Testimonials
+            Clients
+            CTA
+            Footer
+          </div>
+        </div>
+      </div>
+
+
     </>
   )
 }
