@@ -9,10 +9,10 @@ import CTA from "./CTA"
 import Stats from "./Stats"
 import Footer from "./Footer"
 import Testimonials from "./Testimonials"
-import Stats from "./Stats"
 
 
 
 
 
-export { Navbar , Billing , Hero , Business , Button , CardDeal , Clients , CTA , Stats , Footer , Testimonials , Stats}
+
+export { Navbar , Billing , Hero , Business , Button , CardDeal , Clients , CTA , Stats , Footer , Testimonials}
