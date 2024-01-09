@@ -33,7 +33,7 @@ const Hero = () => {
 
       </div>
 
-      <div className={`max-ss:w-[89%] w-[40%] max-md:my-28 max-md:w-[60%] max-md:left-[25%] max-sm:left-[23%] flex-col relative bottom-12 md:left-16`}>
+      <div className={`max-ss:w-[89%] w-[40%] max-md:mt-14 max-md:w-[60%] max-md:left-[25%] max-sm:left-[23%] flex-col relative bottom-12 md:left-16`}>
         <img src={robot} alt="" className="object-contain" />
       </div>
 
