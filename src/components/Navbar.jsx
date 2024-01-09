@@ -27,7 +27,7 @@ const Navbar = () => {
         ))}
       </div>
 
-      <div className='flex sm:hidden'>
+      <div className='flex sm:hidden z-10'>
         <img src={menuToggle ? menu : close}
           alt=""
           className='w-[9vw] cursor-pointer xs:w-[5vw]'
