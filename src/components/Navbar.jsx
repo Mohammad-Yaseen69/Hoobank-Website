@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <div className='hidden items-center sm:flex gap-[3vw]'>
         {navLinks.map(link => (
-          <a href={`#${link.id}`} key={link.id} className='text-white font-poppins'>
+          <a href={`#${link.id}`} key={link.id} className='text-white font-poppins z-10'>
             {link.title}
           </a>
         ))}

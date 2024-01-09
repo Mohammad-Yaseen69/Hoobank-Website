@@ -5,7 +5,7 @@ import GetStarted from "./GetStarted"
 
 const Hero = () => {
   return (
-    <section className={`${layout.section} w-full`}>
+    <section id="home" className={`${layout.section} items-center w-full`}>
       <div className="flex flex-col gap-7 w-3/4 max-md:w-full">
 
         <div className={`max-xs:text-sm  w-fit px-3 h-12 flex items-center bg-discount-gradient rounded-lg justify-center whitespace-nowrap`}>
@@ -33,11 +33,13 @@ const Hero = () => {
 
       </div>
 
-      <div className={` w-2/5 max-md:my-28 max-md:w-full flex-col`}>
-        <img src={robot} alt="" className="object-cover" />
+      <div className={`max-ss:w-[89%] w-[40%] max-md:my-28 max-md:w-[60%] max-md:left-[25%] max-sm:left-[23%] flex-col relative bottom-12 md:left-16`}>
+        <img src={robot} alt="" className="object-contain" />
       </div>
 
-
+      <div className="absolute w-[50%] h-[40%] top-0 pink__gradient z-0 right-0"></div>
+      <div className="absolute w-[50%] h-[40%] bottom-20 white__gradient z-0 right-50"></div>
+      <div className="absolute w-[50%] h-[40%] bottom-0 blue__gradient z-0 right-20"></div>
 
     </section >
   )
