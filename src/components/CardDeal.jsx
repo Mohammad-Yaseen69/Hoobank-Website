@@ -4,7 +4,7 @@ import GetStartedBtn from './GetStartedBtn'
 
 const CardDeal = () => {
   return (
-    <section id='billing' className={`${layout.section} relative max-sm:mt-10 gap-10  items-center w-full `}>
+    <section id='card-deal' className={`${layout.section} relative max-sm:mt-10 gap-10  items-center w-full `}>
 
       <div className='w-1/2 max-md:w-full gap-7 items-start justify-between flex flex-col max-md:items-center max-md:text-center'>
         <h1 className={`${styles.heading3}`}>
