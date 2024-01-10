@@ -1,6 +1,7 @@
 import React from 'react'
 import styles, { layout } from '../styles'
 import { features } from '../website data'
+import GetStartedBtn from './GetStartedBtn'
 
 const Business = () => {
   return (
@@ -17,9 +18,8 @@ const Business = () => {
           by building credit, earning rewards and saving money.
           But with hundreds of credit cards on the market.
         </p>
-        <button className='py-3 px-6 font-semibold rounded-lg  bg-blue-gradient'>
-          Get Started
-        </button>
+
+        <GetStartedBtn />
       </div>
 
       <div className='w-[45%] max-md:w-full  flex flex-col items-start justify-center gap-8'>

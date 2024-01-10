@@ -9,13 +9,13 @@ const Billing = () => {
         <img src={bill} alt="billing" className='w-full max-md:w-[70%] max-sm:w-full' />
       </div>
 
-      <div className='w-1/2 max-md:w-full gap-7 justify-between flex flex-col max-md:items-center text-center'>
+      <div className='w-1/2 max-md:w-full gap-7 justify-between flex flex-col max-md:items-center max-md:text-center'>
 
         <h1 className={`text-[4vw] max-ss:text-[6vw] max-md:text-[5vw] font-poppins text-white font-semibold`}>
           Easily control your
           billing & invoicing.
         </h1>
-        <p className={`${styles.paragraph} max-ss:text-[12px] max-sm:text-[15px] max-sm:w-full w-[90%]`}>
+        <p className={`${styles.paragraph2} w-[90%]`}>
           We consider the payment methods you'll offer your customers when you start your business. 
           This is an important part of managing your business cash flow and meeting your customer's needs.
         </p>
