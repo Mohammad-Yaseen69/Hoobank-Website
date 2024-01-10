@@ -4,7 +4,7 @@ import { features } from '../website data'
 
 const Business = () => {
   return (
-    <section id='features' className={` relative mt-24 w-full items-center justify-between max-md:gap-11 ${layout.section} `}>
+    <section id='business' className={` relative mt-24 w-full items-center justify-between max-md:gap-11 ${layout.section} `}>
 
       <div className='w-[50%] max-md:w-full flex max-md:items-center  flex-col gap-10 justify-start items-start'>
 
