@@ -35,7 +35,8 @@ const Feedback = () => {
           </div>
         </div>
       ))}
-
+      
+      <div className="absolute w-[40%] h-[30%] -right-60 top-20 blue__gradient z-0"></div>
     </div>
   )
 }
